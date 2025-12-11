@@ -31,6 +31,8 @@ print("*************création et affichage *************")
 print("tableau des séquences ADN:")
 print(df,"\n\n")
 
+
+
 #2)opération sur tableau :
 print("**************opération **************")
 #1.) Sélectionner la colonne "longeur"
@@ -39,15 +41,11 @@ print(Longeur)
 
 
 
-
-
 #2.)Filtrer les longueurs supérieurs à 10 
 print("************* Filtrage des longueurs*************")
 #filtrer les longueurs supérieurs à 10 
 filtered_df = df[df["longueur"] > 10 ]
 print(filtered_df,"\n\n")
-
-
 
 
 
