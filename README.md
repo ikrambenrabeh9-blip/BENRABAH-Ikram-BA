@@ -38,6 +38,7 @@ print(df,"\n\n")
 
 
 
+
 #2)opération sur tableau :
 print("**************opération ************")
 #1.) Sélectionner la colonne "longeur"
@@ -51,6 +52,7 @@ print("************* Filtrage des longueurs*************")
 #filtrer les longueurs supérieurs à 10 
 filtered_df = df[df["longueur"] > 10 ]
 print(filtered_df,"\n\n")
+
 
 
 
@@ -70,6 +72,7 @@ print("********ajouter une nouvelle colonne**********")
 #ajouter une nouvelle colonne "categorisée GC"
 df["categorisée GC"]=df["pourcentage GC"].apply(lambda x:"Riche"if x>55 else "moyen" if 45<=x<=55 else "faible" )
 print(df,"\n\n")
+
 
 
 
