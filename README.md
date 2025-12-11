@@ -4,8 +4,8 @@ It Is first Project for Try open source
 #bakhti riheb 
 #Aina marwa 
 #senous chaimae 
-#sebdik imene 
-#Belaidi salim bilal 
+#sebdik imene
+#belaidi salim bilal 
 
 #Dans cette étape nous avons saisi les différentes séquences d'ADN dans un liste python  
 #méthode permet de stocker les données de maniére structurée et de les manipuler facilement par la suite  
@@ -17,7 +17,7 @@ import pandas as pd
 #Cette structure tabulaire est idéale pour l’analyse de données : elle permet d’ajouter des colonnes, d’effectuer des calculs, et de filtrer les informations rapidement
 #Convertir les séquences en tableau constitue une étape essentielle avant toute analyse bioinformatiq
 
-#Données: séquences ADN,longueur ,pourcentage de GC 
+#Données: séquences ADN,longueur ,pourcentage de GC
 data ={
     "Séquences":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"],
     "longueur":[11,12,12,10,11,10,10],
