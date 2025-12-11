@@ -39,7 +39,7 @@ print(df,"\n\n")
 
 
 #2)opération sur tableau :
-print("**************opération **************")
+print("**************opération ************")
 #1.) Sélectionner la colonne "longeur"
 Longeur=df["longueur"]
 print(Longeur)
