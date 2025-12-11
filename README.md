@@ -55,45 +55,4 @@ print(Longuer)
 #plt.bar(df["Séquences"], df["pourcentage GC"], color='skyblue')
 #plt.xlabel("Séquences")
 #plt.ylabel("pourcentage GC")
-#plt.title("pourcentage de GC par séquence")
-#plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#5).ajouter une nouvelle colonne avec calculs
-print("********ajouter une nouvelle colonne**********")
-#ajouter une nouvelle colonne "categorisée GC"
-df["categorisée GC"]=df["pourcentage GC"].apply(lambda x:"Riche"if x>55 else "moyen" if 45<=x<=55 else "faible" )
-print(df,"\n\n")
+#plt.title("pourcentage de GC 
