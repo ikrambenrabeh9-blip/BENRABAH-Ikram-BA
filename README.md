@@ -83,3 +83,13 @@ print(df,"\n\n")
 
 
 
+
+# 6) Calculer l'écrat-type du %GC et de la longueur des séquences 
+
+print("===== Écrat type =====")
+std_gc = df["pourcentage GC"].std()
+std_longueur = df["longueur"].sdt()
+print(f"7) Écart-type du %GC : {std_gc:.3f}")
+print(f"   Écart-type de la longueur : {std_longueur:.3f}")
+print(df,"\n\n")
+
