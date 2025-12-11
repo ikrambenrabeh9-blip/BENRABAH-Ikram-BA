@@ -25,7 +25,7 @@ data ={
     }
 #création d un DataFrame (tableau pandas )
 df=pd.DataFrame(data)
-print(*************création et affichage *************)
+print("*************création et affichage *************")
 
 #affichage du tableau
 print("tableau des séquences ADN:")
