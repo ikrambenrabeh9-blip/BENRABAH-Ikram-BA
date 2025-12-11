@@ -1,13 +1,13 @@
 # project1
 It Is first Project for Try open source 
 #benrabah ikram, biochimie appliquée, 6/12/2025 
-#bakhti riheb
+#bakhti riheb 
 #Aina marwa 
 #senous chaimae 
 #sebdik imene 
 #Belaidi salim bilal 
 
-#Dans cette étape nous avons saisi les différentes séquences d’ADN dans une liste Python
+#Dans cette étape nous avons saisi les différentes séquences d'ADN dans un liste python 
 # méthode permet de stocker les données de manière structurée et de les manipuler facilement par la suite
 #Une saisie manuelle garantit également l’exactitude des données avant le début des analyses.
 
@@ -25,7 +25,7 @@ data ={
     }
 #création d un DataFrame (tableau pandas )
 df=pd.DataFrame(data)
-print("**************création et affichage ****************")
+print(*************création et affichage *************)
 
 #affichage du tableau
 print("tableau des séquences ADN:")
