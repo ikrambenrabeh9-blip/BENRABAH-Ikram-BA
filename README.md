@@ -41,11 +41,15 @@ print(Longeur)
 
 
 
-#2.)Filtrer les longueur supérieur à 10 
-print("************* Filtrage des longueur*************")
-#filtrer les longueur supérieur à 10 
+#2.)Filtrer les longueurs supérieurs à 10 
+print("************* Filtrage des longueurs*************")
+#filtrer les longueurs supérieurs à 10 
 filtered_df = df[df["longueur"] > 10 ]
 print(filtered_df,"\n\n")
+
+
+
+
 
 #3.)Calculer la moyenne du pourcentage de GC
 print("************* Calcul de la moyenne *************")
