@@ -43,7 +43,7 @@ print(Longeur)
 
 #2.)Filtrer les longueur supérieur à 10 
 print("************* Filtrage des longueur*************")
-# Filtrer les longueur supérieur à 10 
+#filtrer les longueur supérieur à 10 
 filtered_df = df[df["longueur"] > 10 ]
 print(filtered_df,"\n\n")
 
