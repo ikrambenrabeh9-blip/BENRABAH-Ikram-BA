@@ -1,5 +1,5 @@
 # project1 
-It Is first Project for Try open source 
+#It Is first Project for Try open source 
 #benrabah ikram, biochimie appliquée, 6/12/2025 
 #bakhti riheb 
 #Aina marwa 
@@ -92,4 +92,11 @@ std_longueur = df["longueur"].sdt()
 print(f"7) Écart-type du %GC : {std_gc:.3f}")
 print(f"   Écart-type de la longueur : {std_longueur:.3f}")
 print(df,"\n\n")
+
+
+
+# Sauvegarder le tableau final dans un fichier CSV
+df.to_csv("sequences_adn_final.csv", index=False, encoding='utf-8')
+print("8) Tableau final sauvegardé dans 'sequences_adn_final.csv'")
+
 
