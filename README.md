@@ -33,6 +33,11 @@ print(df,"\n\n")
 
 
 
+#opération sur tableau :
+print("**************opération **************")
+#1.) Sélectionner la colonne "longueur"
+Longuer=df["longueur"]
+print(Longuer)
 #2.)Affichage avec une bibliothèque de visualisation (matplotlib)
 #import matplotlib.pyplot as plt
 #Données
@@ -50,3 +55,6 @@ print(df,"\n\n")
 #plt.ylabel("pourcentage GC")
 #plt.title("pourcentage de GC par séquence")
 #plt.show()
+
+
+
