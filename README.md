@@ -62,3 +62,11 @@ print(f"pourcentage moyen de GC :{average_gc:.3f}%")
 print(df,"\n\n")
 
 
+
+
+
+#4).ajouter une nouvelle colonne avec calculs
+print("********ajouter une nouvelle colonne**********")
+#ajouter une nouvelle colonne "categorisée GC"
+df["categorisée GC"]=df["pourcentage GC"].apply(lambda x:"Riche"if x>55 else "moyen" if 45<=x<=55 else "faible" )
+print(df,"\n\n")
