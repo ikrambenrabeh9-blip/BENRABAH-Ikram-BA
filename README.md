@@ -79,3 +79,7 @@ print(df,"\n\n")
 #5).ajouter une colonne comptant les "G" Ajouter une nouvelle colonne avec des calculs
 df["Nombre de G"]=df["Séquences"].str.count ("G")
 print(df,"\n\n")
+
+
+
+
