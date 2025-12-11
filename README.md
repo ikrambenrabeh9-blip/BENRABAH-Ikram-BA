@@ -33,6 +33,8 @@ print(df,"\n\n")
 
 
 
+
+
 #opération sur tableau :
 print("**************opération **************")
 #1.) Sélectionner la colonne "longueur"
