@@ -1,5 +1,5 @@
-# project1
-It Is first Project for Try open  source 
+# project1 
+It Is first Project for Try open source 
 #benrabah ikram, biochimie appliquée, 6/12/2025 
 #bakhti riheb 
 #Aina marwa 
@@ -32,7 +32,7 @@ data ={
 df=pd.DataFrame(data)
 print("*************création et affichage *************")
 
-#affichage du tableau
+#affichage du tableau 
 print("tableau des séquences ADN:")
 print(df,"\n\n")
 
