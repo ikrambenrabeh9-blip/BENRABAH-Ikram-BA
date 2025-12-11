@@ -1,14 +1,16 @@
 # project1
-It Is first Project for Try open source 
+It Is first Project for Try open  source 
 #benrabah ikram, biochimie appliquée, 6/12/2025 
 #bakhti riheb 
 #Aina marwa 
 #senous chaimae 
-#sebdik imene
+#sebdik imene 
 #belaidi salim bilal 
 
+
+
 #Dans cette étape nous avons saisi les différentes séquences d'ADN dans un liste python  
-#méthode permet de stocker les données de maniére structurée et de les manipuler facilement par la suite  
+#méthode permet de stocker les données de maniére structurée et de les manipuler facilement par la suite 
 #Une saisie manuelle garantit également l’exactitude des données avant le début des analyses.
 
 import pandas as pd
@@ -23,6 +25,9 @@ data ={
     "longueur":[11,12,12,10,11,10,10],
     "pourcentage GC":[50,66.67,58.33,40,45.45,60,50]
     }
+
+
+    
 #1)création d un DataFrame (tableau pandas )
 df=pd.DataFrame(data)
 print("*************création et affichage *************")
