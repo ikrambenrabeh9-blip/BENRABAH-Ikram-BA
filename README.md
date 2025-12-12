@@ -7,8 +7,6 @@
 #sebdik imene 
 #belaidi salim bilal 
 
-
-
 #Dans cette étape nous avons saisi les différentes séquences d'ADN dans un liste python  
 #méthode permet de stocker les données de maniére structurée et de les manipuler facilement par la suite 
 #Une saisie manuelle garantit également l’exactitude des données avant le début des analyses.
@@ -24,10 +22,7 @@ data ={
     "Séquences":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"],
     "longueur":[11,12,12,10,11,10,10],
     "pourcentage GC":[50,66.67,58.33,40,45.45,60,50]
-    }
-
-
-    
+    }   
 #1)création d un DataFrame (tableau pandas )
 df=pd.DataFrame(data)
 print("*************création et affichage *************")
@@ -36,16 +31,11 @@ print("*************création et affichage *************")
 print("tableau des séquences ADN:")
 print(df,"\n\n")
 
-
-
-
 #2)opération sur tableau :
 print("**************opération ************")
 #1.) Sélectionner la colonne "longeur"
 Longeur=df["longueur"]
 print(Longeur)
-
-
 
 #2.)Filtrer les longueurs supérieurs à 10 
 print("************* Filtrage des longueurs*************")
@@ -54,17 +44,12 @@ filtered_df = df[df["longueur"] > 10 ]
 print(filtered_df,"\n\n")
 
 
-
-
 #3.)calculer la moyenne de pourcentage de GC 
 print("************* Calcul de la moyenne *************")
-# Calculer la moyenne du pourcentage de GC
+#3.)Calculer la moyenne du pourcentage de GC
 average_gc = df["pourcentage GC"].mean()
 print(f"pourcentage moyen de GC :{average_gc:.3f}%")
 print(df,"\n\n")
-
-
-
 
 
 #4).ajouter une nouvelle colonne avec calculs
@@ -75,14 +60,9 @@ print(df,"\n\n")
 
 
 
-
 #5).ajouter une colonne comptant les "G" Ajouter une nouvelle colonne avec des calculs:
 df["Nombre de G"]=df["Séquences"].str.count ("G")
 print(df,"\n\n")
-
-
-
-
 
 #6) calculer ecart type de pourcentage de GC ET La longueur :
 
@@ -91,7 +71,6 @@ std_gc = df["pourcentage GC"].std()
 std_longueur = df["longueur"].std()
 print(f"7) Écart-type du %GC : {std_gc:.3f}")
 print(f"   Écart-type de la Longueur : {std_longueur:.3f}")
-
 print(df,"\n\n")
 
 
