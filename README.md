@@ -76,7 +76,7 @@ print(df,"\n\n")
 
 
 
-#5).ajouter une colonne comptant les "G" Ajouter une nouvelle colonne avec des calculs
+#5).ajouter une colonne comptant les "G" Ajouter une nouvelle colonne avec des calculs:
 df["Nombre de G"]=df["Séquences"].str.count ("G")
 print(df,"\n\n")
 
@@ -84,18 +84,18 @@ print(df,"\n\n")
 
 
 
-# 6) Calculer l'écrat-type du %GC et de la longueur des séquences 
+#6) calculer ecart type de pourcentage de GC ET La longueur :
 
 print("===== Écrat type =====")
 std_gc = df["pourcentage GC"].std()
-std_longueur = df["longueur"].sdt()
+std_longueur = df["longueur"].std()
 print(f"7) Écart-type du %GC : {std_gc:.3f}")
-print(f"   Écart-type de la longueur : {std_longueur:.3f}")
+print(f"   Écart-type de la Longueur : {std_longueur:.3f}")
+
 print(df,"\n\n")
 
 
-
-# Sauvegarder le tableau final dans un fichier CSV
+#7) sauvgarder sous forme fichier csv :
 df.to_csv("sequences_adn_final.csv", index=False, encoding='utf-8')
 print("8) Tableau final sauvegardé dans 'sequences_adn_final.csv'")
 
