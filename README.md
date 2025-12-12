@@ -5,6 +5,7 @@
 #sebdik imene 
 #belaidi salim bilal 
 
+
 #Dans cette étape nous avons saisi les différentes séquences d'ADN dans un liste python  
 #méthode permet de stocker les données de maniére structurée et de les manipuler facilement par la suite 
 #Une saisie manuelle garantit également l’exactitude des données avant le début des analyses.
