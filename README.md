@@ -1,5 +1,3 @@
-# project1 
-
 #benrabah ikram, biochimie appliquée, 6/12/2025 
 #bakhti riheb 
 #Aina marwa 
