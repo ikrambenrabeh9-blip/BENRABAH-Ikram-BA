@@ -23,7 +23,7 @@ data ={
     "longueur":[11,12,12,10,11,10,10],
     "pourcentage GC":[50,66.67,58.33,40,45.45,60,50]
     }   
-#1)création d un DataFrame (tableau pandas )
+#création d un DataFrame (tableau pandas )
 df=pd.DataFrame(data)
 print("*************création et affichage *************")
 
@@ -31,7 +31,7 @@ print("*************création et affichage *************")
 print("tableau des séquences ADN:")
 print(df,"\n\n")
 
-#2)opération sur tableau :
+#opération sur tableau :
 print("**************opération ************")
 #1.) Sélectionner la colonne "longeur"
 Longeur=df["longueur"]
